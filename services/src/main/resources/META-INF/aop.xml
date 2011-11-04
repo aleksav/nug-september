@@ -1,0 +1,9 @@
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+    <weaver>
+        <include within="com.opencredo.nugsample.service.services.*"/>
+    </weaver>
+    <aspects>
+        <aspect name="org.springframework.transaction.aspectj.AnnotationTransactionAspect"/>
+    </aspects>
+</aspectj>
